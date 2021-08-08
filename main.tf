@@ -23,17 +23,17 @@ resource "aws_instance" "webserver" {
     create_before_destroy = true
   }
 
-  provisioner "file" {
-    source      = "upload/index.html"
-    destination = "/tmp/index.html"
-    connection {
-      host = "${aws_instance.webserver.public_ip}"
-      type     = "ssh"
-      user     = "ubuntu"
-      private_key = "${file("kenopsy.pem")}"
-      timeout = "2m"
-    }
-  }
+  #provisioner "file" {
+   # source      = "upload/index.html"
+   # destination = "/tmp/index.html"
+    #connection {
+    #  host = "${aws_instance.webserver.public_ip}"
+     # type     = "ssh"
+     # user     = "ubuntu"
+     # private_key = "${file("kenopsy.pem")}"
+     # timeout = "2m"
+   # }
+ # }
 
 }
 
