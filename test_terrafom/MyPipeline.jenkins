@@ -35,3 +35,4 @@ node {
     sh 'terraform show'
     //sh 'sudo cp terraform.tfstate /var/lib/jenkins/workspace/AWS-Terraform_destroy/terraform.tfstate'
   }
+}
