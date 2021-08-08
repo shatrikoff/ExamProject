@@ -1,4 +1,4 @@
-f = open('Page.html','w')
+f = open('index.html','w')
 
 message = """<HTML>
 <HEAD>
