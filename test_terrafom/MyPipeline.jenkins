@@ -14,7 +14,7 @@ node {
   env.PATH += ":/opt/terraform_0.7.13/"
 
   stage ('Checkout') {
-    git branch: 'master',
+    git branch: 'main',
        credentialsId: 'github',
        url: 'https://github.com/shatrikoff/ExamProject.git'
        mvnHome = tool 'M3'
