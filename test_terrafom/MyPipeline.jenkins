@@ -2,8 +2,8 @@
 
 // Build Parameters
 properties([ parameters([
-  string( name: 'AWS_ACCESS_KEY_ID', defaultValue: 'AKIAWVWBTZ57UI3IGAQC'),
-  string( name: 'AWS_SECRET_ACCESS_KEY', defaultValue: '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')
+  string( name: 'AWS_ACCESS_KEY_ID', defaultValue: 'AKIAWVWBTZ57WDQQKRUR'),
+  string( name: 'AWS_SECRET_ACCESS_KEY', defaultValue: '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')
 ]), pipelineTriggers([]) ])
 
 // Environment Variables
