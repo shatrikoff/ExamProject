@@ -33,7 +33,7 @@ node {
     echo "Insert your infrastructure test of choice and/or application validation here."
     sleep 2
     sh 'terraform show'
-    sh 'sudo cp terraform.tfstate /var/lib/jenkins/workspace/AWS-Terraform_destroy/terraform.tfstate'
+    //sh 'sudo cp terraform.tfstate /var/lib/jenkins/workspace/AWS-Terraform_destroy/terraform.tfstate'
   }
 
   stage ('Notification') {
