@@ -4,7 +4,7 @@ application = Flask(__name__)
 
 @application.route("/")
 def show_html_page():
-    myfile = open("index.html", mode='r')
+    myfile = open("page.html", mode='r')
     page   = myfile.read()
     myfile.close()
     return page
